@@ -79,7 +79,7 @@ let calculateBonus = employees => {
         let bonus = 0;
 
         // Both conditions
-        if (employees[i].years >= 5 && employees[i].rating >= 4) {
+        if (employees[gi].years >= 5 && employees[i].rating >= 4) {
             bonus = 10000;
         }
 
